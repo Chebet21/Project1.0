@@ -1,0 +1,64 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(167, 142, 104);
+    background-image: url();
+    padding: 0;
+    margin: 0;
+    color:white
+}
+
+header {
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    justify-content: center;
+    
+}
+
+.header {
+    background-color: rgb(60, 60, 187);
+    border: 1px;
+    border-color: rgb(60, 60, 187);
+    align-self: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.navlinks a:hover {
+    color:rgba(167, 130, 78, 0.925);
+}
+
+.intro {
+    background-color:rgba(0, 0, 133, 0.783);
+    border-width: 20px;
+    border-color: white;
+}
+
+.photos {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    gap: 20px;
+    padding: 20px;
+    scroll-behavior: smooth;
+
+}
+
+img {
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.biography {
+    background-color: rgba(0, 0, 133, 0.783);
+
+}
