@@ -149,6 +149,11 @@ body {
     border-radius: 20px 20px 0px 0px;
 }
 
-@media screen {
-    
+@media (max-width: 750px) {
+    .navbar,
+    .navlinks,
+    .biography,
+    .botnav {
+        flex-direction: column;
+    }
 }
