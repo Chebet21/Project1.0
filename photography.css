@@ -114,6 +114,8 @@ body {
 
 .bio.pr {
     padding: 15px;
+    word-wrap: break-word;
+    flex-wrap: wrap;
 }
 
 .base {
