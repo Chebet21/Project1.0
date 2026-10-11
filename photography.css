@@ -7,7 +7,7 @@ body {
     color:white
 }
 
-header {
+#title {
     display: flex;
     font-size: large;
     font-weight: bold;
@@ -21,6 +21,8 @@ header {
     border: 1px;
     border-color: rgb(21, 71, 146);
     align-self: center;
+    padding:0%;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .navbar {
@@ -29,6 +31,7 @@ header {
     align-items: center;
     flex-direction: column;
     background-color: rgb(43, 105, 163);
+    border-radius: 0px 0px 20px 20px;
 
 }
 
@@ -43,10 +46,20 @@ header {
     color:rgb(233, 207, 221);
 }
 
+#intro.p {
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    justify-content: center;
+    background-image:url('PhotosToUse/wallpaper9.jpg');
+}
+
 .intro {
     background-color:rgb(21, 71, 146);
     border-width: 20px;
     border-color: white;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .photos {
@@ -58,6 +71,7 @@ header {
     padding: 20px;
     scroll-behavior: smooth;
     background-color: rgb(21, 71, 146);
+    border-radius: 20px 20px 20px 20px;
 
 }
 
@@ -66,16 +80,29 @@ img {
     height: 400px;
     object-fit: cover;
     flex-shrink: 0;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#bio.p {
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    justify-content: center;
+    background-image:url('PhotosToUse/wallpaper9.jpg');
 }
 
 .biography {
     background-color: rgb(21, 71, 146);
-
+    padding: 10px;
+    display: flex;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .base {
     background-color: rgb(21, 71, 146);
     background-image: url(/PhotosToUse/wallpaper9.jpg);
+    padding: 0;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .bottomnav {
@@ -91,6 +118,10 @@ img {
     align-items: center;
     flex-direction: column;
 
+}
+
+#form-popup:not(:popover-open) {
+    display: none;
 }
 
 @media screen {
