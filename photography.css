@@ -83,11 +83,14 @@ img {
     padding: 10px;
     display: flex;
     border-radius: 0px 0px 20px 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
 }
 
 .base {
     background-color: rgb(21, 71, 146);
-    background-image: url(/PhotosToUse/wallpaper9.jpg);
+    background-image: url('/PhotosToUse/wallpaper9.jpg');
     padding: 0;
     border-radius: 20px 20px 0px 0px;
 }
