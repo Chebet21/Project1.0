@@ -46,21 +46,15 @@ body {
     color:rgb(233, 207, 221);
 }
 
-#intro.p {
-    display: flex;
-    font-size: large;
-    font-weight: bold;
-    justify-content: center;
-    background-image:url('PhotosToUse/wallpaper9.jpg');
-}
 
 .intro {
     background-color:rgb(21, 71, 146);
     border-width: 20px;
     border-color: white;
     padding: 10px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
 }
+
 
 .photos {
     display: flex;
@@ -71,7 +65,7 @@ body {
     padding: 20px;
     scroll-behavior: smooth;
     background-color: rgb(21, 71, 146);
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
 
 }
 
@@ -83,19 +77,12 @@ img {
     border-radius: 10px 10px 10px 10px;
 }
 
-#bio.p {
-    display: flex;
-    font-size: large;
-    font-weight: bold;
-    justify-content: center;
-    background-image:url('PhotosToUse/wallpaper9.jpg');
-}
 
 .biography {
     background-color: rgb(21, 71, 146);
     padding: 10px;
     display: flex;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .base {
@@ -122,6 +109,13 @@ img {
 
 #form-popup:not(:popover-open) {
     display: none;
+}
+
+.headings {
+    display: flex;
+    justify-content: center;
+    background-image: url('/PhotosToUse/wallpaper11.jpg');
+    border-radius: 20px 20px 0px 0px;
 }
 
 @media screen {
