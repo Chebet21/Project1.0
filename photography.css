@@ -1,7 +1,7 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(167, 142, 104);
-    background-image: url();
+    background-image: url('/PhotosToUse/wallpaper91.jpg');
     padding: 20px;
     margin: 0;
     color:white
@@ -12,14 +12,14 @@ header {
     font-size: large;
     font-weight: bold;
     justify-content: center;
-    background-image: none;
+    background-image:url('PhotosToUse/wallpaper9.jpg');
     
 }
 
 .header {
-    background-color: rgb(60, 60, 187);
+    background-color: rgb(21, 71, 146);
     border: 1px;
-    border-color: rgb(60, 60, 187);
+    border-color: rgb(21, 71, 146);
     align-self: center;
 }
 
@@ -28,6 +28,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(43, 105, 163);
 
 }
 
@@ -39,11 +40,11 @@ header {
 }
 
 .navlinks a:hover {
-    color:rgba(167, 130, 78, 0.925);
+    color:rgb(233, 207, 221);
 }
 
 .intro {
-    background-color:rgba(0, 0, 133, 0.783);
+    background-color:rgb(21, 71, 146);
     border-width: 20px;
     border-color: white;
 }
@@ -56,6 +57,7 @@ header {
     gap: 20px;
     padding: 20px;
     scroll-behavior: smooth;
+    background-color: rgb(21, 71, 146);
 
 }
 
@@ -67,11 +69,29 @@ img {
 }
 
 .biography {
-    background-color: rgba(0, 0, 133, 0.783);
+    background-color: rgb(21, 71, 146);
 
 }
 
+.base {
+    background-color: rgb(21, 71, 146);
+    background-image: url(/PhotosToUse/wallpaper9.jpg);
+}
 
+.bottomnav {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    
+}
+
+.botnav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
 
 @media screen {
     
