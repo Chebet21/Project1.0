@@ -98,18 +98,23 @@ body {
 }
 
 .bio.p {
-    flex: 1;
+    /* flex: 1;
     min-width: 250px;
     max-width: 350px;
     border-radius: 10px 10px 10px 10px;
-    overflow: hidden;
+    overflow: hidden; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
 
 }
 
 .bio.p img {
-    width: 100%;
+    /* width: 100%;
     height: auto;
-    display: block;
+    display: block; */
+    max-width: 300px;
+    height: auto;
 }
 
 .bio.pr {
