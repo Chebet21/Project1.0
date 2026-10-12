@@ -13,4 +13,8 @@ Natalie Chebet
 This webpage provides the overview of the photography firm "Blue Photography". It contains a brief introduction together with sample photos and the team that makes the company work. 
 
 ## Design
-[BluePhotographyDesign.zip](https://github.com/user-attachments/files/33324368/BluePhotographyDesign.zip)
+Page 1
+![alt text](PhotosToUse/1.png)
+
+Page 2
+![alt text](PhotosToUse/2.png)
