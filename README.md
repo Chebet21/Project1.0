@@ -18,3 +18,7 @@ Page 1
 
 Page 2
 ![alt text](PhotosToUse/2.png)
+
+## Link
+https://chebet21.github.io/Project1.0/
+
